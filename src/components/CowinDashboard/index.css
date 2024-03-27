@@ -1,0 +1,64 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: #161625;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.page-container {
+  width: 70%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.logo-title {
+  color: #2cc6c6;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.loader {
+  align-self: center;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-view {
+  width: 90%;
+  align-self: center;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-img {
+  width: 60%;
+  margin: 15px;
+}
+
+.fail-head {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Bree serif';
+}
